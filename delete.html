@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your account and data — MineTactics</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 2rem 1.25rem 5rem; max-width: 46rem;
+    font: 16px/1.7 -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+    background: #fff; color: #1c1b1a;
+  }
+  @media (prefers-color-scheme: dark) { body { background: #17161a; color: #e6e3e0; } a { color: #7fd1c4; } }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 .6rem; }
+  .meta { color: #7a7570; font-size: .9rem; margin-bottom: 2rem; }
+  table { border-collapse: collapse; width: 100%; margin: .8rem 0; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: .5rem .6rem; border-bottom: 1px solid #8883; }
+  code { font-size: .9em; }
+  ul, ol { padding-left: 1.2rem; }
+  .box { border: 1px solid #8883; border-radius: .5rem; padding: 1rem 1.25rem; margin: 1.2rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Delete your account and data</h1>
+<p class="meta">MineTactics (<code>com.pawintstudio.mines</code>) &middot; Pawint Studio<br>
+  Last updated: 25 September 2026</p>
+
+<p>This page explains how to have your MineTactics account and the data attached to it deleted.
+It applies to the account the Game creates for you when you first sign in with Google Play Games
+(Android) or Game Center (iOS).</p>
+
+<h2>Delete it yourself, in the Game</h2>
+<p>The fastest way is inside the Game, and it takes effect <strong>immediately</strong> &mdash; you do not
+need to write to us or wait.</p>
+<ol>
+  <li>Open the Game and go to <strong>Settings</strong> (the gear icon in the lobby).</li>
+  <li>Tap <strong>Delete account</strong> at the bottom of the sheet, then tap it once more to confirm.</li>
+</ol>
+<p>Your account and the cloud save attached to it are deleted right then. If you have already uninstalled
+the Game, install it again and follow the same two steps &mdash; signing in with the same Google Play Games
+or Game Center account brings you back to the account you want removed.</p>
+
+<h2>Or ask us to delete it</h2>
+<p>If you would rather not install the Game again, write to us instead.</p>
+<ol>
+  <li>Open the Game and go to <strong>Settings</strong>. Your <strong>player ID</strong> is shown there.</li>
+  <li>Email <a href="mailto:pawintstudio@gmail.com?subject=delete%20my%20data">pawintstudio@gmail.com</a>
+      from any address, with the subject <strong>&ldquo;delete my data&rdquo;</strong> and your player ID
+      in the message.</li>
+</ol>
+<p>We need the player ID because the Game holds no name, email address, or phone number for you &mdash;
+it is the only way we can find your data. We will confirm by reply and complete the deletion within
+<strong>30 days</strong>.</p>
+
+<div class="box">
+  <p style="margin:0"><strong>Deletion is permanent.</strong> Your game progress, purchased items, and
+  in-game currencies cannot be recovered afterwards, and purchases are not refunded. If you install the Game
+  again, you start over.</p>
+</div>
+
+<h2>What is deleted</h2>
+<table>
+  <tr><th>Data</th><th>What happens</th></tr>
+  <tr>
+    <td>Player ID and the account record tied to it</td>
+    <td>Deleted</td>
+  </tr>
+  <tr>
+    <td>Cloud save &mdash; stage results, stars, in-game currencies, cards, account level, settings</td>
+    <td>Deleted</td>
+  </tr>
+  <tr>
+    <td>Gameplay events already sent to Unity Analytics</td>
+    <td>Unity Analytics deletion is requested, so the events can no longer be linked to you</td>
+  </tr>
+  <tr>
+    <td>Google Analytics for Firebase app-usage events</td>
+    <td>Data stored on this device is cleared and the app-instance ID is reset. Events already received by Google follow its retention settings; the in-game account deletion does not erase those server records.</td>
+  </tr>
+  <tr>
+    <td>Crash diagnostics</td>
+    <td>Retained by Firebase Crashlytics for up to 90 days, then deleted automatically</td>
+  </tr>
+  <tr>
+    <td>Purchase records</td>
+    <td>Kept for as long as tax and accounting law requires, because we are obliged to keep them.
+        They are not used for anything else.</td>
+  </tr>
+</table>
+
+<h2>Deleting the Game only</h2>
+<p>Uninstalling the Game removes the save stored on your device, but <strong>does not delete the cloud
+save</strong>. Use the request above if you want the cloud copy gone as well.</p>
+
+<h2>Your platform account</h2>
+<p>Your Google Play Games and Game Center accounts belong to Google and Apple, not to us. Deleting your
+MineTactics data does not touch them, and we cannot delete them for you.</p>
+
+<p style="margin-top:2.5rem">See also our <a href="privacy.html">Privacy Policy</a> and
+<a href="terms.html">Terms of Service</a>.</p>
+
+</body>
+</html>
