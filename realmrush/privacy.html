@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Realm Rush</title>
+<meta name="description" content="Realm Rush (Pawint Studio) Privacy Policy">
+
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 2rem 1.25rem 5rem; max-width: 50rem;
+    font: 16px/1.7 -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+    background: #fff; color: #1c1b1a;
+  }
+  @media (prefers-color-scheme: dark) { body { background: #17161a; color: #e6e3e0; } a { color: #7fd1c4; } }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 .6rem; }
+  h3 { font-size: 1rem; margin: 1.4rem 0 .4rem; }
+  .meta { color: #7a7570; font-size: .9rem; margin-bottom: 2rem; }
+  .wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; margin: .8rem 0; font-size: .93rem; }
+  th, td { text-align: left; vertical-align: top; padding: .5rem .6rem; border-bottom: 1px solid #8883; }
+  code { font-size: .9em; }
+  ul, ol { padding-left: 1.2rem; }
+  .box { border: 1px solid #8883; border-radius: .5rem; padding: .9rem 1.1rem; margin: 1.2rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="meta">
+  Realm Rush: State Conquest (<code>com.pawintstudio.realmrush.android</code>) &middot; Pawint Studio<br>
+  Effective date: October 19, 2026
+</p>
+
+<p>Pawint Studio ("we", "us") respects the privacy of players of the mobile game <strong>Realm Rush</strong>
+(the "Game"). This policy explains what information the Game processes, why, who it is shared with, and what
+choices you have. It applies to the Game only. Pawint Studio is the developer of the Game and the controller
+of this information.</p>
+
+<div class="box">
+  <strong>At a glance.</strong> The Game does not request your name, email address, phone number, date of birth,
+  photos, contacts or precise location through gameplay or sign-in. If you contact support by email, we receive
+  your email address and the information you choose to send. On Android you sign in with
+  <strong>Google Play Games</strong>. The Game uses a <strong>game player ID</strong> to save your progress, and
+  the advertising SDKs use your device's <strong>advertising ID and device information</strong> to show ads. The
+  game player ID is also given to the ad mediation SDK so that ad rewards can be matched to your game account.
+</div>
+
+<h2>1. Information we process</h2>
+
+<p>The Game signs you in with the Google Play Games account already on your device, so there is no separate
+account to create and no password to give us. Google Play Games returns a player identifier and a one-time
+authorization code, which the Game passes to Unity Authentication. Unity Authentication issues the game player
+ID that your save is stored under. We never receive your Google password, and we do not receive your email
+address.</p>
+
+<div class="wrap"><table>
+  <tr><th>Category</th><th>Data</th><th>How it is collected</th></tr>
+  <tr>
+    <td><strong>Game account</strong></td>
+    <td>Google Play Games player identifier and authorization code; the game player ID issued for it</td>
+    <td>When you sign in (Google Play Games, Unity Authentication)</td>
+  </tr>
+  <tr>
+    <td><strong>Game progress</strong></td>
+    <td>Stage results and stars, account level, in-game currencies (such as gold, gems and energy), commanders,
+        artifacts, runes and other items, quest, pass, attendance and achievement state, whether Remove Ads is
+        owned, how many ad rewards you claimed today, the time-zone offset used for the daily reset, and save
+        timestamps</td>
+    <td>While you play; stored on your device and in Unity Cloud Save</td>
+  </tr>
+  <tr>
+    <td><strong>Purchases</strong></td>
+    <td>Product purchased, time of purchase, Google Play order number and purchase token, and what was granted
+        for it. When you start a purchase, the Game attaches a pseudonymous account tag &mdash; a one-way hash
+        (SHA-256) derived from your game player ID, not the ID itself &mdash; to the order, so that the purchase
+        is delivered only to the game account that made it. We never receive your card or other payment
+        details.</td>
+    <td>Provided through Google Play Billing when you buy; a record is kept in your cloud save. The account
+        tag is sent to Google Play with the purchase and returned with the order</td>
+  </tr>
+  <tr>
+    <td><strong>Gameplay statistics</strong></td>
+    <td>Game player ID, installation ID, session start and end times, device information (model, OS version,
+        language), Game version, country derived from IP address, and gameplay events &mdash; for example
+        stage finished (stage, result, duration, commander used, account level and currency balances at that
+        moment), level gained, shop opened, purchase attempted (product and whether it succeeded), ad finished
+        (where in the Game and how it ended), item boxes and summons opened, sign-in problems, and an
+        integrity flag if in-game values appear to have been tampered with</td>
+    <td>Collected by Unity Analytics. <strong>Not collected in the EEA, the UK or Switzerland unless you allow
+        it</strong> (section 3)</td>
+  </tr>
+  <tr>
+    <td><strong>Crash diagnostics</strong></td>
+    <td>Crash and error reports (error location and stack trace), device model, OS version, Game version, and
+        a Crashlytics installation ID</td>
+    <td>Collected automatically by Firebase Crashlytics (Google) once you have agreed to the Terms of Service
+        and this policy in the Game; a crash that happens before that is kept on your device and sent only
+        after you agree</td>
+  </tr>
+  <tr>
+    <td><strong>Advertising</strong></td>
+    <td>Advertising ID (Google Advertising ID), IP address, device information (model, OS version, language,
+        carrier, screen size and similar), ad interactions (impressions, clicks, views), and approximate
+        location derived from IP address (country or city level). The Game also gives your <strong>game player
+        ID</strong> to the ad mediation SDK (Unity LevelPlay) when the SDK starts, so that ad rewards can be
+        attributed to your game account and reward problems can be investigated.</td>
+    <td>Collected automatically by the advertising SDKs (Unity LevelPlay and the ad networks it mediates); the
+        game player ID is provided by the Game</td>
+  </tr>
+  <tr>
+    <td><strong>Privacy choices</strong></td>
+    <td>Your answers about gameplay statistics and personalized ads</td>
+    <td>Stored on your device and read by the SDKs concerned</td>
+  </tr>
+</table></div>
+
+<p>The Firebase Crashlytics library comes bundled with Google Analytics for Firebase. The Game keeps that
+library's collection switched off and does not use it, so no app-usage analytics are collected through
+it.</p>
+
+<p><strong>Notifications</strong> ("energy is full", "your daily reward is waiting") are scheduled on your
+device only. The Game does not use a push-notification server and does not collect a push token. You can turn
+them off in the Game under <strong>Settings &rarr; Push Alarm</strong> or in Android's settings.</p>
+
+<p>If you email us, we receive your email address and your message, and use them only to answer you.</p>
+
+<h2>2. Why we use it</h2>
+<ul>
+  <li><strong>To run the Game</strong> &mdash; sign you in, save and restore your progress, currencies and
+      items, and apply daily resets.</li>
+  <li><strong>To process in-app purchases</strong> &mdash; verify purchases, deliver what you bought to the
+      game account that bought it without delivering it twice, keep Remove Ads active, and handle refunds,
+      disputes and support requests.</li>
+  <li><strong>To show ads</strong> &mdash; serve rewarded and full-screen ads, attribute ad rewards to your game
+      account, measure ad performance, and personalize ads where permitted.</li>
+  <li><strong>Fraud prevention and security</strong> &mdash; detect ad fraud, purchase abuse and tampering
+      with the Game.</li>
+  <li><strong>To improve the Game</strong> &mdash; find and fix crashes, and balance difficulty and rewards
+      using gameplay statistics.</li>
+  <li><strong>To answer your emails</strong> and handle requests about your data.</li>
+</ul>
+
+<h3>Legal bases (EEA and UK users)</h3>
+<ul>
+  <li><strong>Performance of a contract</strong> &mdash; signing you in, saving and restoring your progress,
+      and delivering purchases.</li>
+  <li><strong>Legitimate interests</strong> &mdash; crash diagnostics, fraud and tamper prevention, and
+      showing non-personalized ads.</li>
+  <li><strong>Consent</strong> &mdash; gameplay statistics and personalized advertising (section 3).</li>
+  <li><strong>Legal obligation</strong> &mdash; keeping purchase records where the law requires it.</li>
+</ul>
+
+<h2>3. Your choices: statistics and advertising</h2>
+
+<h3>Gameplay statistics</h3>
+<p>If your device appears to be in the EEA, the UK or Switzerland (judged from the device's region setting and
+time zone), the Game does not collect gameplay statistics unless you allow it. If you decline, or do not
+answer, none are collected and the Game works exactly as it does otherwise. You can change your answer at any
+time in the Game under <strong>Settings &rarr; Usage stats</strong>; switching it off stops collection right
+away. Deleting your account (section 7) also asks Unity Analytics to delete the gameplay statistics already
+collected.</p>
+
+<h3>Advertising</h3>
+<p>The Game shows two kinds of ads: <strong>rewarded ads</strong>, which you choose to watch in exchange for
+an in-game reward, and <strong>full-screen ads</strong> that may appear when you enter a stage. The Game does
+not show banner ads and does not use web cookies.</p>
+<ul>
+  <li><strong>Advertising ID.</strong> You can delete or reset your advertising ID in Android
+      <strong>Settings &rarr; Google &rarr; Ads</strong>. You will still see ads, but they will not be
+      personalized.</li>
+  <li><strong>EEA, the UK and Switzerland.</strong> The Game asks for your choice about personalized ads
+      before any ad is requested.
+
+      If you decline, or do not answer, the ads you see are not personalized. You can change your answer at
+      any time in the Game under <strong>Settings &rarr; Personalized ads</strong>.</li>
+  <li><strong>Remove Ads.</strong> The Game offers a one-time "Remove Ads" purchase. After it, full-screen ads
+      are no longer shown, rewards that normally require watching an ad are granted without one, and on later
+      launches the Game does not start the advertising SDKs.</li>
+</ul>
+<p>We do not build advertising profiles ourselves.</p>
+
+<h2>4. Who your information is shared with</h2>
+<p>We use the service providers below, and advertising providers collect data through their SDKs.
+Advertising identifiers and ad interactions may be used for personalized advertising; some privacy laws
+describe this as a "sale" or "sharing" of personal information. The choices in section 3 and the providers'
+privacy controls let you manage personalized advertising. You can also contact us about your privacy rights.
+Each provider processes data under its applicable privacy policy.</p>
+
+<div class="wrap"><table>
+  <tr><th>Recipient</th><th>Role / purpose</th><th>Data</th><th>Privacy policy</th></tr>
+  <tr>
+    <td>Unity Technologies &mdash; Unity Gaming Services (Authentication, Cloud Save, Cloud Code, Analytics)
+        and Unity In-App Purchasing</td>
+    <td>Sign-in, cloud save, server time and maintenance/version check, gameplay statistics, connecting the
+        Game to the store's billing (service provider)</td>
+    <td>Game player ID, game progress, purchase records, device identifiers, diagnostics, gameplay statistics</td>
+    <td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Game Player and App User Privacy Policy</a></td>
+  </tr>
+  <tr>
+    <td>Unity LevelPlay (ironSource Mobile / Unity Technologies)</td>
+    <td>Ad mediation: selecting and serving ads from ad networks, attributing ad rewards, measurement, fraud
+        prevention</td>
+    <td>Advertising ID, IP address, device information, ad interactions, approximate location, game player
+        ID</td>
+    <td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity / ironSource Player Privacy Policy</a></td>
+  </tr>
+  <tr>
+    <td>Ad networks mediated by LevelPlay: Unity Ads (Unity Technologies)</td>
+    <td>Ad serving, measurement, personalized ads where permitted, fraud prevention</td>
+    <td>Advertising ID, IP address, device information, ad interactions, approximate location</td>
+    <td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Ads Privacy Policy</a></td>
+  </tr>
+
+  <tr>
+    <td>Google LLC &mdash; Google Play Games</td>
+    <td>Platform sign-in</td>
+    <td>Platform player identifier and authorization information</td>
+    <td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td>
+  </tr>
+  <tr>
+    <td>Google LLC &mdash; Google Play Billing</td>
+    <td>Payment processing</td>
+    <td>Product, order number, purchase token, pseudonymous account tag (payment details are handled by
+        Google)</td>
+    <td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td>
+  </tr>
+  <tr>
+    <td>Google LLC &mdash; Firebase Crashlytics</td>
+    <td>Crash analysis (service provider)</td>
+    <td>Crash reports, device model, OS version, Game version, Crashlytics installation ID</td>
+    <td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td>
+  </tr>
+</table></div>
+
+<p>We may also disclose information where the law requires it, or to protect our rights and the safety of
+players.</p>
+
+<h2>5. International transfers</h2>
+<p>We are based in the Republic of Korea. To provide the Game and show ads, your information is transferred
+over the network while you play to servers operated by the providers above, which may be located in the
+United States, Israel, the EU and other countries. These providers protect data under their own safeguards,
+such as standard contractual clauses where applicable. If you do not want your information transferred, you
+can stop using the Game and uninstall it; the Game cannot be used without these transfers.</p>
+
+<div class="wrap"><table>
+  <tr><th>Recipient (contact)</th><th>Country</th><th>Data</th><th>Purpose</th><th>Retention</th></tr>
+  <tr>
+    <td>Unity Technologies (dpo@unity3d.com)</td>
+    <td>United States and other countries where Unity operates servers</td>
+    <td>Game player ID, game progress, purchase records, device identifiers, diagnostics, gameplay statistics</td>
+    <td>Sign-in, cloud save, gameplay statistics</td>
+    <td>While you use the Game, or until you request deletion</td>
+  </tr>
+  <tr>
+    <td>ironSource Mobile Ltd. / Unity LevelPlay (dpo@unity3d.com)</td>
+    <td>Israel, United States and others</td>
+    <td>Advertising ID, IP address, device information, ad interactions, approximate location, game player
+        ID</td>
+    <td>Ad mediation, attributing ad rewards, measurement, fraud prevention</td>
+    <td>As set out in the provider's policy</td>
+  </tr>
+  <tr>
+    <td>Unity Ads (Unity Technologies, dpo@unity3d.com)</td>
+    <td>United States and other countries where Unity operates servers</td>
+    <td>Advertising ID, IP address, device information, ad interactions, approximate location</td>
+    <td>Ad serving</td>
+    <td>As set out in the provider's policy</td>
+  </tr>
+
+  <tr>
+    <td>Google LLC (Google Play Games, Google Play Billing)</td>
+    <td>United States and other countries where Google operates servers</td>
+    <td>Platform player identifier; product, order number, purchase token, pseudonymous account tag</td>
+    <td>Sign-in, payment processing</td>
+    <td>As set out in the provider's policy and applicable law</td>
+  </tr>
+  <tr>
+    <td>Google LLC (Firebase Crashlytics)</td>
+    <td>United States and other countries where Google operates servers</td>
+    <td>Crash reports, device model, OS version, Game version, Crashlytics installation ID</td>
+    <td>Crash analysis</td>
+    <td>90 days before Firebase starts removing reports and identifiers from live and backup systems</td>
+  </tr>
+</table></div>
+
+<h2>6. How long it is kept</h2>
+<div class="wrap"><table>
+  <tr><th>Data</th><th>Retention</th></tr>
+  <tr>
+    <td>Game player ID and game progress</td>
+    <td>While you use the Game. Deleted immediately when you delete your account in the Game, or within
+        30 days after a verified email request.</td>
+  </tr>
+  <tr>
+    <td>Game data stored on your device</td>
+    <td>Removed when you delete your account in the Game (device settings and a small purchase-safety record
+        stay; see the <a href="delete.html">deletion page</a>). Android backup or device-transfer copies may
+        be managed separately in your device or Google account settings</td>
+  </tr>
+  <tr>
+    <td>Gameplay statistics</td>
+    <td>According to the retention settings of Unity Analytics. Deletion of that data is requested when you
+        delete your account in the Game.</td>
+  </tr>
+  <tr>
+    <td>Crash reports</td>
+    <td>90 days before Firebase Crashlytics begins removing reports and associated identifiers from live and
+        backup systems</td>
+  </tr>
+  <tr>
+    <td>Advertising data</td>
+    <td>As set out in each advertising provider's privacy policy</td>
+  </tr>
+  <tr>
+    <td>Purchase records</td>
+    <td>As required by law &mdash; for example, 5 years for payment and supply records and 3 years for
+        complaint and dispute records under the Korean Act on Consumer Protection in Electronic Commerce</td>
+  </tr>
+  <tr>
+    <td>Support emails</td>
+    <td>1 year after the inquiry is resolved</td>
+  </tr>
+</table></div>
+<p>When a retention period ends or the purpose has been achieved, the information is deleted without delay,
+in a way that cannot be restored.</p>
+
+<h2>7. Your rights and how to delete your data</h2>
+<p>You may ask to access, correct or delete your information, or to object to or restrict its processing, at
+any time. Depending on where you live (for example under the GDPR in the EEA and the UK, the CCPA/CPRA in
+California, or the Personal Information Protection Act in Korea), you may have additional rights, including
+the right to lodge a complaint with a supervisory authority. There are two ways to delete your data; the
+details are on the <a href="delete.html">Delete your account and data</a> page.</p>
+
+<h3>Delete it yourself, in the Game</h3>
+<ol>
+  <li>Open <strong>Settings</strong> in the Game and tap <strong>Delete account</strong> at the bottom.</li>
+  <li>Tap <strong>Delete</strong> to confirm. The Game deletes your cloud save and the purchase history
+      stored with it, then the game account itself, and then the game data and the privacy choices stored on
+      your device.</li>
+</ol>
+<p>You need an internet connection; if you are offline the deletion does not start and nothing is changed.
+Once it has started it cannot be cancelled, and if it is interrupted the Game finishes it the next time it
+starts. Afterwards the Game asks for your agreement again, and if you sign in you start over with a new game
+account. Deleting the game account does not delete your Google account. What is removed and what stays is
+listed on the <a href="delete.html">deletion page</a>.</p>
+
+<h3>Or ask us by email</h3>
+<p>Email <a href="mailto:pawintstudio@gmail.com">pawintstudio@gmail.com</a> with the subject "Data deletion
+request" and the details listed on the <a href="delete.html">deletion page</a>. Because we hold no name or
+email address for you, we cannot find your data from those; we will tell you if we need more to identify the
+account. We complete the deletion within 30 days and reply to confirm. Purchase records that we must keep by
+law are stored separately and deleted when that period ends.</p>
+
+<p>Deleted progress, currencies and items cannot be restored. You can delete or reset your advertising ID
+in Android settings to manage its use for future ads. This does not itself delete information already held
+by advertising providers; use the privacy controls in their linked policies to request deletion.</p>
+
+<h2>8. Children</h2>
+<p>The Game is intended for a general audience aged 13 and over and is not directed to children. We do not
+knowingly collect personal information from children under 13 (or under 14 in Korea, or the applicable age in
+your country). If we learn that we have, we will delete it promptly. Parents or guardians can contact us at
+<a href="mailto:pawintstudio@gmail.com">pawintstudio@gmail.com</a>, and may use the methods in section 7 on
+a child's behalf.</p>
+
+<h2>9. Security</h2>
+<p>Data sent between the Game and servers is encrypted in transit (HTTPS/TLS). Server data is stored in Unity
+Gaming Services with access controls, and we keep internal access to a minimum. We do not store your real
+name or contact details together with your game data. No method of transmission or storage is completely
+secure, but we take reasonable steps to protect your information.</p>
+
+<h2>10. Additional information for users in the Republic of Korea</h2>
+<ul>
+  <li><strong>Privacy officer:</strong> Privacy team, Pawint Studio &middot;
+      <a href="mailto:pawintstudio@gmail.com">pawintstudio@gmail.com</a></li>
+  <li><strong>Overseas transfer:</strong> the recipients, countries, items, purposes and retention periods are
+      listed in section 5. Transfers take place over the network whenever the Game is running.</li>
+  <li><strong>Children under 14:</strong> a legal representative may request access to or deletion of a
+      child's information using the methods in section 7.</li>
+  <li><strong>Remedies:</strong> for reports or advice about infringement of personal information you may
+      contact the Personal Information Dispute Mediation Committee (1833-6972, www.kopico.go.kr), the
+      Personal Information Infringement Report Center (118, privacy.kisa.or.kr), the Supreme Prosecutors'
+      Office (1301, www.spo.go.kr), or the Korean National Police Agency (182, ecrm.police.go.kr).</li>
+</ul>
+
+<h2>11. Changes to this policy</h2>
+<p>We will post any changes on this page at least 7 days before they take effect (30 days for material
+changes) and update the effective date at the top. For material changes we will also tell you in the Game
+before they take effect and, where required, ask for your agreement again.</p>
+
+<h2>12. Contact</h2>
+<p>Pawint Studio &mdash; <a href="mailto:pawintstudio@gmail.com">pawintstudio@gmail.com</a></p>
+
+<p style="margin-top:2.5rem">See also our <a href="terms.html">Terms of Service</a> and
+<a href="delete.html">Delete your account and data</a>.</p>
+
+</body>
+</html>
